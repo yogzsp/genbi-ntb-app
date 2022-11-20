@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarBeasiswaSatu">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_arrow_blue" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="GENBI"
+                android:textAlignment="textEnd"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="FORM PENDAFTARAN BEASISWA BI"
+                android:textAlignment="textEnd"
+                android:textColor="@color/blue"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingHorizontal="40dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="150dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Nama Lengkap"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="NIM"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Universitas"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox4"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Prodi"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox5"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Semester"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox6"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Alamat"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox7"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Tanggal Lahir"
+                    android:inputType="date" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox8"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Tempat Lahir"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox9"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Jenis Kelamin"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox10"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Agama"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox11"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Nama Ayah"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox12"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Pekerjaan Ayah"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox13"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Nama Ibu"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox14"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Pekerjaan Ibu"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailBox15"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:boxStrokeColor="#fff"
+                app:boxStrokeWidth="0dp"
+                app:counterMaxLength="10"
+                app:hintEnabled="false"
+                app:hintTextColor="@color/black">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text"
+                    android:ems="10"
+                    android:hint="Jumlah Saudara"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rounded"
+                android:backgroundTint="@color/blue"
+                android:fontFamily="sans-serif-medium"
+                android:paddingHorizontal="50dp"
+                android:paddingVertical="16dp"
+                android:text="Next"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginRight="65dp"
+            app:srcCompat="@drawable/ic_home" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="65dp"
+            app:srcCompat="@drawable/ic_beasiswa" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="65dp"
+            app:srcCompat="@drawable/ic_mail" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/ic_profile" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
