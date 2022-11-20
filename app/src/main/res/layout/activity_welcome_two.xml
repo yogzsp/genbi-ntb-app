@@ -26,14 +26,14 @@
         android:text="Find Out your Scholarship\n and be a partner of NEW\n GENERATION OF\n INDONESIA"
         android:textColor="@color/white"
         android:textSize="26sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/btnGetStarted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         android:textAlignment="textEnd"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/btnGetStarted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"

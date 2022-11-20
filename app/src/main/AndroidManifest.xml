@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Genbi">
         <activity
-            android:name=".DaftarBeasiswaSatu"
+            android:name=".FormBeasiswaDua"
+            android:exported="true" />
+        <activity
+            android:name=".FormBeasiswaSatu"
             android:exported="true" />
         <activity
             android:name=".Register"

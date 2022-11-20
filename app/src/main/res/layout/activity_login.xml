@@ -52,7 +52,7 @@
             app:hintTextColor="@color/black">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/etUsername"
                 android:layout_width="280dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/edit_text"
@@ -74,7 +74,7 @@
             app:hintTextColor="@color/black">
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/etPassword"
                 android:layout_width="280dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/edit_text"
@@ -84,7 +84,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/btnSignin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
@@ -126,7 +126,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/btnSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"

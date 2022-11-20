@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DaftarBeasiswaSatu extends AppCompatActivity {
+public class FormBeasiswaDua extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daftar_beasiswa_satu);
+        setContentView(R.layout.activity_form_beasiswa_dua);
     }
 }
