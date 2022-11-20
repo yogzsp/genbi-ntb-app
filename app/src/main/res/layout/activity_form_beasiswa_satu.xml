@@ -27,7 +27,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:orientation="vertical">
 
             <TextView
@@ -44,7 +44,6 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
                 android:text="FORM PENDAFTARAN BEASISWA BI"
                 android:textAlignment="textEnd"
                 android:textColor="@color/blue"
@@ -431,21 +430,21 @@
             android:id="@+id/btnHome"
             android:layout_width="26dp"
             android:layout_height="26dp"
-            android:layout_marginRight="65dp"
+            android:layout_marginEnd="65dp"
             app:srcCompat="@drawable/ic_home" />
 
         <ImageView
             android:id="@+id/btnBeasiswa"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginRight="65dp"
+            android:layout_marginEnd="65dp"
             app:srcCompat="@drawable/ic_beasiswa" />
 
         <ImageView
             android:id="@+id/btnPengumuman"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginRight="65dp"
+            android:layout_marginEnd="65dp"
             app:srcCompat="@drawable/ic_mail" />
 
         <ImageView

@@ -47,7 +47,7 @@
         android:layout_marginBottom="36dp"
         android:background="@drawable/rounded"
         android:backgroundTint="@color/light_blue"
-        android:drawableRight="@drawable/ic_arrow"
+        android:drawableEnd="@drawable/ic_arrow"
         android:drawablePadding="10dp"
         android:fontFamily="sans-serif-medium"
         android:paddingHorizontal="30dp"
